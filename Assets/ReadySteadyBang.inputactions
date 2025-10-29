@@ -1,0 +1,95 @@
+{
+    "version": 1,
+    "name": "ReadySteadyBang",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "272ab7e9-d06d-4c9f-aafb-e82076b54851",
+            "actions": [
+                {
+                    "name": "P1 READY",
+                    "type": "Button",
+                    "id": "172c38ec-d775-4593-ae42-03a03fe61a2e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "P2 READY",
+                    "type": "Button",
+                    "id": "47758427-3a35-4671-bd36-10a0ce861f92",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "P2 SHOOT",
+                    "type": "Button",
+                    "id": "5abe80fc-c8e1-4ac5-8020-1acfbd39417b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "P1 SHOOT",
+                    "type": "Button",
+                    "id": "a7f54b88-e895-4e2f-9325-9598b48c6ed1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7e3f4052-cbbc-46e7-96a1-7b838badbb67",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "P1 READY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4c7d122f-5275-4096-a2ba-dfebf2f81999",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "P2 READY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "485b3a1a-fe10-4686-a69b-ed25bed30542",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "P2 SHOOT",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7549d7ab-dbfd-40d8-a081-27a4ee5c7ca6",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "P1 SHOOT",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
